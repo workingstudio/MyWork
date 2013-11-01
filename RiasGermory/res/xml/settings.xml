@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com"
+    android:key="preference_screen" >
+
+    <com.workingstudio.paintswirls.SeekBarPreference
+        android:defaultValue="4"
+        android:key="complexity"
+        android:max="6"
+        android:summary="Adjust the quality of the color swirls."
+        android:title="Complexity"
+        robobunny:min="1"
+        robobunny:unitsLeft=""
+        robobunny:unitsRight="" />
+    <com.workingstudio.paintswirls.SeekBarPreference
+        android:defaultValue="100"
+        android:key="zoom"
+        android:max="200"
+        android:summary="Adjust zoom rate."
+        android:title="Zoom"
+        robobunny:min="1"
+        robobunny:unitsLeft=""
+        robobunny:unitsRight="" />
+    <com.workingstudio.paintswirls.SeekBarPreference
+        android:defaultValue="20"
+        android:key="speed1"
+        android:max="100"
+        android:summary="Control the swirling shifting speed, 0 for no movment."
+        android:title="Swirl Speed"
+        robobunny:min="-100"
+        robobunny:unitsLeft=""
+        robobunny:unitsRight="" />
+    <com.workingstudio.paintswirls.SeekBarPreference
+        android:defaultValue="50"
+        android:key="speed2"
+        android:max="100"
+        android:summary="Control the color shifting speed, 0 for no movment."
+        android:title="Color Speed"
+        robobunny:min="-100"
+        robobunny:unitsLeft=""
+        robobunny:unitsRight="" />
+    <com.workingstudio.paintswirls.SeekBarPreference
+        android:defaultValue="60"
+        android:key="intensity"
+        android:max="100"
+        android:summary="Adjust the britghness intensity."
+        android:title="Color Intensity"
+        robobunny:min="10"
+        robobunny:unitsLeft=""
+        robobunny:unitsRight="" />
+
+</PreferenceScreen>
